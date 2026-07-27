@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "skills": {
+    "architecture-context": {
+      "source": "local:skills/architecture-context",
+      "version": "0.2.0",
+      "description": "Architecture ADR discipline — every proposal cites an ADR"
+    },
+    "autonomy-ladder": {
+      "source": "local:skills/autonomy-ladder",
+      "version": "0.2.0",
+      "description": "A0..A3 progressive autonomy rules"
+    },
+    "knowledge-as-code": {
+      "source": "local:skills/knowledge-as-code",
+      "version": "0.2.0",
+      "description": "Signal → approval → immutable version flow"
+    },
+    "no-invention": {
+      "source": "local:skills/no-invention",
+      "version": "0.2.0",
+      "description": "Cite graph node or declare absence — never fabricate"
+    },
+    "product-context": {
+      "source": "local:skills/product-context",
+      "version": "0.2.0",
+      "description": "Surface × layer × source-of-truth rules"
+    }
+  },
+  "sources": {
+    "supported": [
+      "local:<path>",
+      "github:<owner>/<repo>/<path>",
+      "npm:<package>",
+      "npx:skills add <source>"
+    ]
+  }
+}

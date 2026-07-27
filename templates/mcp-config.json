@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "method-kit": {
+      "command": "method-kit",
+      "args": ["mcp", "stdio"],
+      "env": {
+        "MK_KNOWLEDGE_DIR": "./knowledge"
+      }
+    }
+  }
+}

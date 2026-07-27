@@ -1,0 +1,17 @@
+{
+  "name": "@method-kit/create",
+  "version": "0.2.0",
+  "description": "AI-first development methodology — progressive autonomy, spike validation, governed writes, and knowledge-as-code",
+  "bin": {
+    "method-kit": "./bin/mk.mjs",
+    "create-method-kit": "./bin/cli.mjs",
+    "mk": "./bin/mk.mjs"
+  },
+  "keywords": ["ai", "methodology", "development", "agents", "knowledge", "governance", "adr", "spikes"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iam-alan-abreu/method-kit"
+  },
+  "files": ["bin/", "templates/", "skills/", "scripts/", "README.md", "METHODOLOGY.md"]
+}
